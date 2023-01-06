@@ -1,0 +1,58 @@
+.contact_page {
+    .container {
+        padding: 30px 20px 40px 20px;
+
+        .title {
+            font-size: 30px;
+            border-left: 5px solid var(--main-color);
+            padding-left: 10px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    input {
+        border: 1px solid var(--main-color) !important;
+        padding: 5px 10px;
+        font-size: 20px;
+        text-transform: inherit;
+        border-radius: 5px;
+        background: transparent;
+
+        &:focus {
+            outline-color: var(--main-color);
+        }
+    }
+
+    textarea {
+        border: 1px solid var(--main-color);
+        padding: 10px;
+        font-size: 20px;
+        text-transform: inherit;
+        border-radius: 5px;
+        background: transparent;
+
+
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        background: var(--main-color);
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid var(--main-color);
+        color: #fff;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background: transparent;
+            color: var(--main-color);
+        }
+    }
+}

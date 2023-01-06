@@ -1,0 +1,47 @@
+.caption {
+    width: 100%;
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        background: var(--main-color);
+        padding: 40px 0px;
+
+        .row {
+            background: var(--main-color);
+            display: flex;
+            align-items: center;
+
+            .text-box {
+                i {
+                    font-size: 30px;
+                    color: #fff;
+                }
+
+                h6 {
+                    font-size: 18px;
+                    color: #fff;
+                    font-family: 'Poppins';
+
+                    a {
+                        font-size: 18px;
+                        text-decoration: none;
+                        padding: 0 !important;
+                        margin: 0 !important;
+                        font-family: 'Poppins';
+                        color: rgba(255, 255, 255, 0.736);
+                        transition: all .2s ease-in-out;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

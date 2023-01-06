@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professiya.az | Ana səhifə</title>
+    <link rel="icon" href="img/favicon.svg">
+
+    <!------- Basic CSS CDN Links ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Data Aos CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!------- Main CSS Links ------->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="main w-100 h-100">
+
+        <!-- Header start -->
+        <header id="header" class="header">
+            <div class="row">
+                <div class="col-3">
+                    <div class="header-logo">
+                        <p>Professiya<span>.az</span></p>
+                    </div>
+                </div>
+                <div class="col-9 d-none d-lg-flex justify-content-end pe-5">
+                    <nav>
+                        <ul>
+                            <li class="me-4"><a class="active" href="index.html">Ana səhifə</a></li>
+                            <li class="me-4"><a href="javascript:void(0)">Vakansiyalar</a></li>
+                            <li class="me-4"><a href="cv.html">Cv yarat</a></li>
+                            <li class="me-4"><a href="register.html">Qeydiyyat / Daxil ol</a></li>
+                            <li class="me-4"><a href="contact.html">Bizimlə əlaqə</a></li>
+                            <li class="d-flex align-items-end user"><a href="profile.html"><i
+                                        class="fa-solid fa-user me-1"></i> İstifadəçi</a>
+                                <ul class="user-dropdown">
+                                    <li><a href=""><i class="fa-solid fa-arrow-right-from-bracket me-1"></i> Çıxış</a>
+                                    </li>
+                                    <li><a href=""><i class="fa-solid fa-table me-1"></i>Elanlarım</a></li>
+                                    <li><a href=""><i class="fa-regular fa-file me-1"></i>Cv'lərim</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-9 d-flex d-lg-none justify-content-end pe-3">
+                    <div class="bar-btn">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                </div>
+                <div class="mobile-menu">
+                    <div class="mobile-wrapper">
+                        <div class="close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="mobile-logo">
+                            <p>Professiya<span>.az</span></p>
+                        </div>
+                        <ul>
+                            <li><a href="index.htmlindex.html">Ana səhifə</a></li>
+                            <li><a href="vacancies.html">Vakansiyalar</a></li>
+                            <li><a href="cv.html">Cv yarat</a></li>
+                            <li><a href="register.html">Qeydiyyat / Daxil ol</a></li>
+                            <li><a href="contact.html">Bizimlə əlaqə</a></li>
+                            <li><a href="">Profilim</a></li>
+                        </ul>
+
+                        <div class="mobile-icons d-flex justify-content-between">
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                        </div>
+                        <div class="copy">
+                            <p>&copy; Bütün hüquqlar qorunur. <br> 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Hero Slider start -->
+        <section id="hero-section" class="hero-section">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row h-100">
+                            <div
+                                class="col-lg-6 col-12 d-flex order-2 order-lg-1 order-2 order-lg-1 flex-column justify-content-start justify-content-lg-center align-items-center slide-form">
+                                <h1 class="slide-title">Hədəflərinizə uyğun karyera qurun !</h1>
+                                <p class="slide-slugs"><span class="p-0 m-0">3000 +</span> ELAN</p>
+                                <p class="slide-slugs">İş, Məşğulluq və Karyera fürsətlərini qaçırmayın !</p>
+                                <form action="" class="w-100 d-flex flex-column align-items-center">
+                                    <input type="text" placeholder="Axtarış.." class="w-75 mt-2">
+                                    <button type="button" class="pe-3 ps-3 pt-2 pb-2 mt-3">Axtar</button>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 col-12 order-1 order-lg-2 slide-img">
+                                <img src="img/slider-img/Privacy-and-encryption-details.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row h-100">
+                            <div
+                                class="col-lg-6 col-12 d-flex order-2 order-lg-1 flex-column justify-content-start justify-content-lg-center align-items-center slide-form">
+                                <h1 class="slide-title">Şirkətinizə uyğun işçilər axtarın !</h1>
+                                <p class="slide-slugs"><span class="p-0 m-0">3000 +</span> ELAN</p>
+                                <p class="slide-slugs">İş, Məşğulluq və Karyera fürsətlərini qaçırmayın !</p>
+                                <form action="" class="w-100 d-flex flex-column align-items-center">
+                                    <input type="text" placeholder="Axtarış.." class="w-75 mt-2">
+                                    <button type="button" class="pe-3 ps-3 pt-2 pb-2 mt-3">Axtar</button>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 col-12 order-1 order-lg-2 slide-img">
+                                <img src="img/slider-img/User-research.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row h-100">
+                            <div
+                                class="col-lg-6 col-12 d-flex order-2 order-lg-1 flex-column justify-content-start justify-content-lg-center align-items-center slide-form">
+                                <h1 class="slide-title">Özünüzə uyğun iş tapın !</h1>
+                                <p class="slide-slugs"><span class="p-0 m-0">3000 +</span> ELAN</p>
+                                <p class="slide-slugs">İş, Məşğulluq və Karyera fürsətlərini qaçırmayın !</p>
+                                <form action="" class="w-100 d-flex flex-column align-items-center">
+                                    <input type="text" placeholder="Axtarış.." class="w-75 mt-2">
+                                    <button type="button" class="pe-3 ps-3 pt-2 pb-2 mt-3">Axtar</button>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 col-12 order-1 order-lg-2 slide-img">
+                                <img src="img/slider-img/Successful-deal.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Hero Slider end -->
+
+        <!-- Category start -->
+        <section id="category" class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
+                        <a href="" class="p-0 m-0 text-decoration-none d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-coins"></i>
+                            <p> Maliyyə</p>
+                            <span>(204 elan)</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
+                        <a href="" class="p-0 m-0 text-decoration-none d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-arrows-spin"></i>
+                            <p>Marketinq</p>
+                            <span>(123 elan)</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
+                        <a href="" class="p-0 m-0 text-decoration-none d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                            <p>Satış</p>
+                            <span>(279 elan)</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
+                        <a href="" class="p-0 m-0 text-decoration-none d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-pen-fancy"></i>
+                            <p>Dizayn</p>
+                            <span>(146 elan)</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
+                        <a href="" class="m-0 p-0 text-decoration-none d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-code"></i>
+                            <p>Texnologiya(IT)</p>
+                            <span>(200 elan)</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
+                        <a href="" class="p-0 m-0 text-decoration-none d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-border-all"></i>
+                            <p>Hamısı</p>
+                            <span>(3005 elan)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Category end -->
+
+        <!-- Vacancy and Advert start -->
+        <section id="main-vc-rec" class="main-vc-rec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+
+                        <!----------------------------- Trend işə götürənlər start ---------------------------->
+
+                        <div class="row">
+                            <div class="col-12 pt-2">
+                                <h6 class="p-0 m-0 mb-2 trends-title after-h">Trend işəgötürən şirkətlər</h6>
+                                <div class="swiper cardSwiper  pt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/companies/favicon-kapital.ico" class="mb-2">
+                                                <h6>Kapitalbank</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/companies/inci-logo.png" class="mb-2">
+                                                <h6>İnci Group</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/companies/veysəloglu.svg" class="mb-2">
+                                                <h6>Veysəloğlu</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/companies/pashabank.svg" class="mb-2">
+                                                <h6>PashaBank</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----------------------------- Trend işə götürənlər end ---------------------------->
+
+                        <!----------------------------- Önə çıxan CV'lər start ---------------------------->
+
+                        <div class="row mt-2">
+                            <div class="col-12 pt-2">
+                                <h6 class="p-0 m-0 mb-2 trends-title after-h">Önə çıxan cv'lər</h6>
+                                <div class="swiper cardSwiper  pt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/user-icon.png" class="mb-2">
+                                                <h6>Şəxsin adı</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/user-icon.png" class="mb-2">
+                                                <h6>Şəxsin adı</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/user-icon.png" class="mb-2">
+                                                <h6>Şəxsin adı</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex flex-column align-items-center">
+                                            <a href="" class="d-flex flex-column align-items-center">
+                                                <img src="img/user-icon.png" class="mb-2">
+                                                <h6>Şəxsin adı</h6>
+                                                <button><a href="">Ətraflı bax</a></button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------------------------- Önə çıxan CV'lər end ---------------------------->
+
+                        <!----------------------------- Premium elanlar start ---------------------------->
+
+                        <div class="row mt-2">
+                            <div class="col-12 pt-2">
+                                <h6 class="p-0 m-0 mb-2 trends-title after-h">Premium elanlar</h6>
+                                <div class="swiper cardSwiper cards-2 pt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide d-flex p-2 align-items-center">
+                                            <a href="" class="w-100 d-flex align-items-center justify-content-between">
+                                                <img src="img/vacancies/undraw_electric_car_b-7-hl.svg">
+                                                <div class="info d-flex flex-column ms-2 ms-lg-0">
+                                                    <h6 class="p-0 m-0">Sürücü</h6>
+                                                    <p class="p-0 m-0 text-danger">İnci Group Company</p>
+                                                    <p class="p-0 m-0 text-white">Ə/h razılaşma yolu ilə</p>
+                                                </div>
+                                                <i class="fa-solid fa-crown text-warning"></i>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex p-2 align-items-center">
+                                            <a href="" class="w-100 d-flex align-items-center justify-content-between">
+                                                <img src="img/vacancies/undraw_empty_cart_co35.svg">
+                                                <div class="info d-flex flex-column ms-2 ms-lg-0">
+                                                    <h6 class="p-0 m-0">Satıcı</h6>
+                                                    <p class="p-0 m-0 text-success">Bravo MMC</p>
+                                                    <p class="p-0 m-0 text-white">Ə/h razılaşma yolu ilə</p>
+                                                </div>
+                                                <i class="fa-solid fa-crown text-warning"></i>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex p-2 align-items-center">
+                                            <a href="" class="w-100 d-flex align-items-center justify-content-between">
+                                                <img src="img/vacancies/undraw_qa_engineers_dg-5-p.svg">
+                                                <div class="info d-flex flex-column ms-2 ms-lg-0">
+                                                    <h6 class="p-0 m-0">Fəhlə</h6>
+                                                    <p class="p-0 m-0">Veysəloğlu MMC</p>
+                                                    <p class="p-0 m-0 text-white">Ə/h razılaşma yolu ilə</p>
+                                                </div>
+                                                <i class="fa-solid fa-crown text-warning"></i>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide d-flex p-2 align-items-center">
+                                            <a href="" class="w-100 d-flex align-items-center justify-content-between">
+                                                <img src="img/vacancies/undraw_designer_girl_re_h54c.svg">
+                                                <div class="info d-flex flex-column ms-2 ms-lg-0">
+                                                    <h6 class="p-0 m-0">Dizayner</h6>
+                                                    <p class="p-0 m-0 text-info">Webcoder</p>
+                                                    <p class="p-0 m-0 text-white">Ə/h razılaşma yolu ilə</p>
+                                                </div>
+                                                <i class="fa-solid fa-crown text-warning"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination "></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------------------------- Premium elanlar end ---------------------------->
+
+                        <!----------------------------- Counter start ---------------------------->
+
+                        <div class="row counter mt-2">
+                            <div class="col-12">
+                                <h6 class="p-0 m-0 mb-2 trends-title after-h">Ümumi məlumat sayları</h6>
+                                <div class="row m-0">
+                                    <div class="col-lg-3 d-flex justify-content-center align-items-center pt-4 pb-4">
+                                        <div
+                                            class="text-box d-flex flex-column justify-content-around align-items-center">
+                                            <i class="fa-solid fa-file"></i>
+                                            <span class="num p-0 m-0" data-val="180">0</span>
+                                            <p class="m-0 p-0">Cv'lər</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-lg-3 d-flex justify-content-center align-items-center pt-4 pb-4 mt-2 mt-lg-0">
+                                        <div
+                                            class="text-box d-flex flex-column justify-content-around align-items-center">
+                                            <i class="fa-solid fa-briefcase"></i>
+                                            <span class="num p-0 m-0" data-val="278">0</span>
+                                            <p class="m-0 p-0">Vakansiyalar</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-lg-3 d-flex justify-content-center align-items-center pt-4 pb-4 mt-2 mt-lg-0">
+                                        <div
+                                            class="text-box d-flex flex-column justify-content-around align-items-center">
+                                            <i class="fa-solid fa-building"></i>
+                                            <span class="num p-0 m-0" data-val="147">0</span>
+                                            <p class="m-0 p-0">Şirkətlər</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-lg-3 d-flex justify-content-center align-items-center pt-4 pb-4 mt-2 mt-lg-0">
+                                        <div
+                                            class="text-box d-flex flex-column justify-content-around align-items-center">
+                                            <i class="fa-solid fa-users"></i>
+                                            <span class="num p-0 m-0" data-val="320">0</span>
+                                            <p class="m-0 p-0">İstifadəçilər</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------------------------- Counter end ---------------------------->
+
+                    </div>
+
+                    <!----------------------------- Reklamlar start ---------------------------->
+
+                    <div class="col-lg-4 mt-2 mt-lg-0">
+                        <div class="row">
+                            <div class="col-12 pt-2">
+                                <h6 class="p-0 m-0 mb-2 adv-title after-h">Reklamlar</h6>
+                                <div class="advert">
+                                    <p class="p-0 m-0">Reklam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 pt-2">
+                                <div class="advert">
+                                    <p class="p-0 m-0">Reklam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----------------------------- Reklamlar end ---------------------------->
+
+                </div>
+            </div>
+        </section>
+        <!-- Vacancy and Advert end -->
+
+        <!-- Marquee start -->
+
+        <marquee class="p-0 m-0 mt-2 text-danger" Scrollamount=15 style="font-size: 20px; font-family:'Poppins';">
+            Diqqət! Saytla bağlı hər hansı bir probleminiz, müraciətiniz, təklifiniz və ya iradlarınız olarsa "Bizimlə
+            əlaqə" bölməsinə keçid edə bilərsiniz, müraciətiniz tez bir zamanda nəzərə alınacaqdır.Diqqətiniz üçün
+            təşəkkürlər!</marquee>
+
+        <!-- Marquee start -->
+
+        <!-- Banner start -->
+
+        <section id="banner" class="banner mt-3">
+            <div class="container pt-5 pb-4">
+                <div class="row pe-3 ps-3">
+                    <div class="col-lg-6 d-flex align-items-center text-box">
+                        <i class="fa-solid fa-bell"></i>
+                        <h5>Yeni vakansiyalar haqqında bildiriş almaq üçün <br> Ödənişsiz abunə olun !</h5>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="notification-input d-flex flex-column flex-lg-row align-items-center">
+                            <input type="email" class="w-100" placeholder="Mail adresinizi yazın">
+                            <button class="ms-lg-4 mt-2 mt-lg-0">Abunə ol</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Banner end -->
+
+        <!-- Footer start -->
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row p-3">
+                    <div
+                        class="col-6 mt-3 mt-lg-0 col-lg-3 p-0 m-0 d-flex justify-content-center justify-content-lg-start">
+                        <ul class="p-0 m-0 d-flex flex-column align-items-start">
+                            <li><a href="index.html">Ana səhifə</a></li>
+                            <li><a href="vacancies.html">Vakansiyalar</a></li>
+                            <li><a href="cv.html">Cv yarat</a></li>
+                            <li><a href="">Qeydiyyat</a></li>
+                            <li><a href="">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-6 mt-3 mt-lg-0 col-lg-3 p-0 m-0 d-flex justify-content-center justify-content-lg-start">
+                        <ul class="p-0 m-0 d-flex flex-column align-items-start">
+                            <li><a href="">Saytda reklam</a></li>
+                            <li><a href="">Qaydalar</a></li>
+                            <li><a href="">Şərtlər</a></li>
+                            <li><a href="">Şirkətlər</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-6 mt-3 mt-lg-0 col-lg-3 p-0 m-0 d-flex justify-content-center justify-content-lg-start">
+                        <ul class="p-0 m-0 d-flex flex-column align-items-start">
+                            <li><a href="index.html">Ana səhifə</a></li>
+                            <li><a href="vacancies.html">Vakansiyalar</a></li>
+                            <li><a href="cv.html">Cv yarat</a></li>
+                            <li><a href="">Qeydiyyat</a></li>
+                            <li><a href="">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-3 mt-lg-0 col-lg-3 p-0 m-0 d-flex justify-content-start">
+                        <ul class="p-0 m-0 ms-3 ms-lg-0 d-flex flex-column align-items-start">
+                            <li><a href="">Bizi izləyin :</a></li>
+                            <div class="icons d-flex mt-2">
+                                <li><a target="_blank" href="https://www.instagram.com/inci_group_/"><i
+                                            class="fa-brands fa-instagram me-3"></i></a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/incicompany"><i
+                                            class="fa-brands fa-square-facebook me-3"></i></a></li>
+                                <li><a target="_blank"
+                                        href="https://www.linkedin.com/company/inci-group-of-companies-llc/"><i
+                                            class="fa-brands fa-linkedin me-3"></i></a></li>
+                                <li><a target="_blank" href=""><i class="fa-brands fa-telegram"></i></a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer-bottom pt-2 pb-2">
+                    <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <div class="logo d-flex align-items-end">
+                            <h1>Professiya<span>.az</span></h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center text-white">
+                        2022 &copy; Bütün hüquqlar qorunur.</div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Footer end -->
+
+
+    </div>
+
+    <!------- Basic JS CDN Links ------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <!-- Data Aos JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!------- Main JS Links ------->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

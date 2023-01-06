@@ -1,0 +1,342 @@
+header {
+    position: absolute;
+    background: transparent;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 0;
+    margin: 0;
+
+    .row {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+        .col {
+            padding: 0 !important;
+            margin: 0;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: flex-end;
+
+            img {
+                width: 40px;
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+                font-size: 27px;
+                margin-left: 10px;
+                color: #000;
+                font-family: 'Ubuntu';
+
+
+
+                span {
+                    padding: 0;
+                    margin: 0;
+                    color: var(--main-color);
+
+                }
+            }
+        }
+
+        nav {
+            padding: 0;
+            margin: 0;
+
+
+            ul {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    a {
+                        text-decoration: none;
+                        padding: 0;
+                        position: relative;
+                        padding-left: 20px;
+                        margin: 0;
+                        color: #000;
+                        font-size: 17px;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Poppins';
+                        transition: all .2s ease-in-out;
+
+                        &::after {
+                            position: absolute;
+                            left: 20px;
+                            content: "";
+                            width: 10px;
+                            height: 10px;
+                            background: none;
+                            border-radius: 50%;
+                            transition: all .2s ease-in-out;
+                        }
+
+                        &:hover {
+                            color: var(--main-color);
+
+                            &::after {
+                                left: 0;
+                                background: var(--main-color);
+                            }
+                        }
+
+                        i {
+                            font-size: 15px;
+                        }
+                    }
+
+
+
+                    .active {
+                        position: relative;
+                        color: var(--main-color);
+
+                        &::after {
+                            position: absolute;
+                            left: 0;
+                            content: "";
+                            width: 10px;
+                            height: 10px;
+                            background: var(--main-color);
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .user {
+                    border-radius: 5px;
+                    background: var(--main-color);
+                    transition: all .2s ease-in-out;
+                    position: relative;
+
+                    a {
+                        color: #fff;
+                        padding-left: 0;
+                        padding: 5px 10px;
+
+                        &::after {
+                            display: none;
+                        }
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+
+                    &:hover {
+                        background: #4c57fb;
+
+                        .user-dropdown {
+                            transform: translateY(0);
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+
+                    .user-dropdown {
+                        position: absolute;
+                        width: 117px;
+                        top: 40px;
+                        background: rgb(141, 141, 141);
+                        display: flex;
+                        flex-direction: column;
+                        transform: translateY(80%);
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: all .2s ease-in-out;
+                        border-bottom-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
+
+                        li {
+                            padding: 0;
+                            margin: 0;
+                            width: 100%;
+                            border-bottom: 2px solid rgb(141, 141, 141);
+                            transition: all .3s ease-in-out;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+
+                            &:hover {
+                                border-bottom: 2px solid #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bar-btn {
+            i {
+                font-size: 20px;
+            }
+        }
+
+        .mobile-menu {
+            position: fixed;
+            background: rgba(0, 0, 0, 0.264);
+            padding: 0;
+            margin: 0;
+            left: -100%;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+            transition: all .3s ease-in-out;
+
+            .mobile-wrapper {
+                position: relative;
+                width: 300px;
+                height: 100%;
+                background: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                padding-left: 25px !important;
+                padding-right: 25px !important;
+                padding-top: 12px !important;
+                padding: 0;
+                margin: 0 !important;
+
+                ul {
+                    height: 50%;
+                    background: transparent;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: center;
+                    padding: 0;
+                    margin: 0;
+                    margin-top: 20px !important;
+
+                    li {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        padding-top: 15px !important;
+                        padding-bottom: 15px !important;
+
+                        a {
+                            padding: 0;
+                            margin: 0;
+                            text-decoration: none;
+                            font-size: 22px;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            padding-left: 20px !important;
+                            color: #000;
+                            font-family: 'Poppins';
+
+
+                            &::after {
+                                position: absolute;
+                                left: 0;
+                                content: "";
+                                width: 10px;
+                                height: 10px;
+                                background: var(--main-color);
+                                border-radius: 50%;
+
+                            }
+                        }
+                    }
+                }
+
+                .copy {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    padding: 0 !important;
+                    text-align: center;
+
+                    p {
+                        width: 100%;
+                        font-size: 20px;
+                        padding: 0;
+                        padding-bottom: 30px;
+                        margin: 0;
+                        color: rgba(0, 0, 0, 0.46);
+                    }
+                }
+            }
+
+            .mobile-logo {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: flex-end;
+
+                img {
+                    width: 41px;
+                }
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                    font-size: 27px;
+                    margin-left: 10px;
+                    color: #000;
+                    font-family: 'Ubuntu';
+
+
+
+                    span {
+                        padding: 0;
+                        margin: 0;
+                        color: #404EFF;
+
+                    }
+                }
+            }
+
+            .mobile-icons {
+                width: 98%;
+                height: 20%;
+                align-items: center;
+
+                i {
+                    font-size: 35px;
+                    color: var(--main-color);
+                }
+            }
+
+            .close-btn {
+                position: absolute;
+                top: 15px;
+                right: 20px;
+
+                i {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+.menu-show {
+    left: 0 !important;
+}
+
+
+.main {
+    position: relative;
+}

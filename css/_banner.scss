@@ -1,0 +1,48 @@
+.banner {
+    background: var(--main-color);
+
+    .text-box {
+
+        i {
+            font-size: 50px;
+            margin-right: 20px;
+            color: #fff;
+        }
+
+        h5 {
+            font-size: 22px;
+            color: #fff;
+            font-family: 'Poppins';
+        }
+    }
+
+    .notification-input {
+        input {
+            padding: 8px 0px;
+            border: none;
+            border-radius: 5px;
+            padding-left: 10px;
+            caret-color: var(--main-color);
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            width: 200px;
+            padding: 7px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: var(--main-color);
+            color: #fff;
+            transition: all .1s ease-in-out;
+
+            &:hover {
+                background: #fff;
+                transform: scale(1.1);
+                color: var(--main-color);
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.register {
+    .container {
+
+
+        .row {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 0px 0px 40px 0px;
+
+
+            .titles {
+                width: 100%;
+
+                h1 {
+                    a {
+                        font-size: 13px;
+                        background: transparent;
+                        padding: 10px 10px;
+                        border: 1px solid var(--main-color);
+                        border-radius: 10px;
+                        color: var(--main-color);
+                        text-decoration: none;
+                    }
+
+                    .active {
+                        background: var(--main-color);
+                        color: #fff;
+                    }
+                }
+            }
+
+            form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+            }
+
+            .input {
+                width: 100%;
+
+                .cv-img {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    img {
+                        width: 150px;
+                        background: grey;
+                    }
+                }
+
+                p {
+                    font-family: 'Poppins';
+                    font-size: 15px;
+                }
+
+                .labels {
+                    label {
+                        font-size: 16px;
+                        font-family: 'Poppins';
+                    }
+
+                    input {
+                        cursor: pointer;
+                    }
+                }
+
+                textarea {
+                    width: 100%;
+                    border: 1px solid var(--main-color);
+                    background: transparent;
+                    border-radius: 5px;
+                    padding: 10px;
+                    text-transform: inherit;
+                    font-family: 'Poppins';
+
+                    &:focus {
+                        outline-color: var(--main-color);
+                    }
+                }
+
+                input {
+                    background: transparent;
+                    padding: 8px 10px 8px 10px;
+                    border: 1px solid var(--main-color);
+                    width: 100%;
+                    border-radius: 5px;
+
+                    &:focus {
+                        outline-color: var(--main-color);
+                    }
+                }
+
+                button {
+                    background: var(--main-color);
+                    border: 1px solid var(--main-color);
+                    color: #fff;
+                    padding: 8px 20px;
+                    border-radius: 5px;
+                    transition: all .2s ease-in-out;
+
+                    &:hover {
+                        background: transparent;
+                        color: var(--main-color);
+                    }
+                }
+
+                span {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

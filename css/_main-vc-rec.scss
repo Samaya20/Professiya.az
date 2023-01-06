@@ -1,0 +1,140 @@
+.main-vc-rec {
+    padding: 15px 10px;
+
+    .container {
+        font-family: 'Poppins';
+
+        .cardSwiper {
+            background: rgb(45, 45, 45);
+            border-radius: 10px;
+            padding-bottom: 60px !important;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            .swiper-slide {
+                border-bottom: 6px solid #fff;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                padding-bottom: 20px;
+            }
+
+            a {
+                text-decoration: none !important;
+                color: var(--main-color);
+            }
+
+            h6 {
+                color: #fff;
+                font-weight: 600;
+                font-family: 'Poppins';
+                font-size: 23px;
+            }
+
+            button {
+                border: 1px solid var(--main-color);
+                background: var(--main-color);
+                border-radius: 5px;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+            img {
+                width: 70px !important;
+            }
+
+
+            .swiper-pagination-bullet {
+                padding: 5px;
+                background: transparent;
+                border: 2px solid #fff;
+            }
+            
+
+        }
+
+        .advert {
+            background: rgb(45, 45, 45);
+            color: #fff;
+            padding: 275px 0px;
+            margin: 0 !important;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .cards-2 {
+            padding-bottom: 43px !important;
+
+            .swiper-slide {
+                border-bottom-color: goldenrod;
+                justify-content: space-between !important;
+
+                img {
+                    width: 120px !important;
+                    height: 100px !important;
+                }
+            } 
+        }
+
+        .after-h {
+            position: relative;
+            padding-left: 10px !important;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                width: 3px;
+                height: 100%;
+                background: var(--main-color);
+            }
+        }
+
+        .counter {
+            .col-12 {
+                padding: 13px 19.5px 0px !important;
+            }
+
+            .col-lg-3 {
+                border-radius: 20px;
+                background: rgb(45, 45, 45);
+                border-right: 5px solid #fff;
+                border-left: 5px solid #fff;
+                border-bottom: 5px solid rgb(161, 161, 161);
+                transition: all .2s ease-in-out;
+                cursor: pointer;
+
+                &:hover,
+                &:focus {
+                    transform: scale(0.9);
+                }
+            }
+
+            .text-box {
+                i {
+                    font-size: 35px;
+                    color: #fff;
+                }
+
+                span {
+                    font-size: 25px;
+                    color: var(--main-color);
+                    font-weight: 600;
+                    font-family: 'Poppins';
+                }
+
+                p {
+                    font-size: 22px;
+                    letter-spacing: 1px;
+                    color: #fff;
+                    font-weight: 500;
+                    font-family: 'Poppins';
+                }
+            }
+        }
+    }
+}
